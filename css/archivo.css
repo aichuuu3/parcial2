@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 50px;
+    background-color: rgb(224, 221, 236);
+}
+
+.header{
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    background-color: rgb(38, 20, 49);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.lead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    margin: 0 auto;
+    height: 30px;
+    background-color: rgb(38, 20, 49);
+    align-items: center;
+}
+
+.cajetitacontenedora{
+    padding: 0;
+    margin: 1px auto 0;
+    width: 100%;
+    max-width: 1250px;
+}
+
+ul{
+    padding: 0;
+    margin: 6px;
+    height: 45px;
+    list-style: none;
+}
+
+#Ed{
+    list-style:circle;
+    color:black;
+}
+
+li{
+    float:left;
+    padding: 15px 10px;
+}
+
+a{
+    color: white;
+    padding: 0 100px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.cuadrop{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    float:inline-end;
+}
+.temita{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.tablaContenedor{
+    width: max-content;
+    border:solid 2px rgba(245, 116, 11);
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tabla{
+    color:black;
+    font-size: 12px;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgba(100, 63, 17, 0.4);
+}
+
+th{
+    padding: 10px 20px;
+    font-weight: 700px;
+}
+
+td{
+    padding:15px;
+    border-bottom: solid 1px rgba(100, 63, 17, 0.4);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background-color:white;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+  }
+
+.temitas {
+    text-align: center;
+}
+
+.postbody{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#pb{
+    text-align: center;
+}
